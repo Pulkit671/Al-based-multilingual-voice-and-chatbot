@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # MedAI Chatbot
 
 A full-stack multilingual medical chatbot starter built with a React frontend and a FastAPI backend. This version is intentionally model-free for now and uses a dummy medical response that is translated into the user's selected language. The project is structured so a disease prediction or diagnosis model can be plugged in later without rewriting the authentication, chat, MongoDB persistence, or UI layers.
@@ -23,30 +22,30 @@ A full-stack multilingual medical chatbot starter built with a React frontend an
 med_ai/
 +-- README.md
 +-- backend/
-¦   +-- .env.example
-¦   +-- requirements.txt
-¦   +-- app/
-¦       +-- __init__.py
-¦       +-- config.py
-¦       +-- database.py
-¦       +-- main.py
-¦       +-- models/
-¦       ¦   +-- __init__.py
-¦       +-- routes/
-¦       ¦   +-- __init__.py
-¦       ¦   +-- auth.py
-¦       ¦   +-- chats.py
-¦       +-- schemas/
-¦       ¦   +-- __init__.py
-¦       ¦   +-- auth.py
-¦       ¦   +-- chat.py
-¦       +-- uploads/
-¦       ¦   +-- __init__.py
-¦       ¦   +-- voice/
-¦       +-- utils/
-¦           +-- __init__.py
-¦           +-- auth.py
-¦           +-- translator.py
+Â¦   +-- .env.example
+Â¦   +-- requirements.txt
+Â¦   +-- app/
+Â¦       +-- __init__.py
+Â¦       +-- config.py
+Â¦       +-- database.py
+Â¦       +-- main.py
+Â¦       +-- models/
+Â¦       Â¦   +-- __init__.py
+Â¦       +-- routes/
+Â¦       Â¦   +-- __init__.py
+Â¦       Â¦   +-- auth.py
+Â¦       Â¦   +-- chats.py
+Â¦       +-- schemas/
+Â¦       Â¦   +-- __init__.py
+Â¦       Â¦   +-- auth.py
+Â¦       Â¦   +-- chat.py
+Â¦       +-- uploads/
+Â¦       Â¦   +-- __init__.py
+Â¦       Â¦   +-- voice/
+Â¦       +-- utils/
+Â¦           +-- __init__.py
+Â¦           +-- auth.py
+Â¦           +-- translator.py
 +-- frontend/
     +-- index.html
     +-- package.json
@@ -56,24 +55,24 @@ med_ai/
         +-- main.jsx
         +-- styles.css
         +-- api/
-        ¦   +-- auth.js
-        ¦   +-- axios.js
-        ¦   +-- chats.js
+        Â¦   +-- auth.js
+        Â¦   +-- axios.js
+        Â¦   +-- chats.js
         +-- assets/
         +-- components/
-        ¦   +-- ChatInput.jsx
-        ¦   +-- ChatWindow.jsx
-        ¦   +-- MessageBubble.jsx
-        ¦   +-- Navbar.jsx
-        ¦   +-- Sidebar.jsx
-        ¦   +-- VoiceUpload.jsx
+        Â¦   +-- ChatInput.jsx
+        Â¦   +-- ChatWindow.jsx
+        Â¦   +-- MessageBubble.jsx
+        Â¦   +-- Navbar.jsx
+        Â¦   +-- Sidebar.jsx
+        Â¦   +-- VoiceUpload.jsx
         +-- context/
-        ¦   +-- AuthContext.jsx
-        ¦   +-- LanguageContext.jsx
+        Â¦   +-- AuthContext.jsx
+        Â¦   +-- LanguageContext.jsx
         +-- pages/
-        ¦   +-- Chat.jsx
-        ¦   +-- Login.jsx
-        ¦   +-- Signup.jsx
+        Â¦   +-- Chat.jsx
+        Â¦   +-- Login.jsx
+        Â¦   +-- Signup.jsx
         +-- routes/
             +-- ProtectedRoute.jsx
 ```
